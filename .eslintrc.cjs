@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+      'no-unused-vars': 'off', 
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
   },
